@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+
+using UnityEngine;
 
 /**************************************************************************************
 * Type: Class
@@ -137,3 +139,5 @@ public class RouteVisualizer : MonoBehaviour
         }
     }
 }
+
+#endif

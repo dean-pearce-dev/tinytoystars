@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+
+using UnityEngine;
 
 /**************************************************************************************
 * Type: Class
@@ -113,3 +115,5 @@ public class CamRouteVisualizer : MonoBehaviour
         }
     }
 }
+
+#endif
